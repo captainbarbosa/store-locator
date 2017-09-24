@@ -1,0 +1,32 @@
+<html>
+<head>
+  <meta charset='utf-8' />
+  <title>Store locator</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <!-- Include the Mapbox GL JS library -->
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.40.1/mapbox-gl.css' rel='stylesheet' />
+  <!-- Include custom CSS and JavaScript -->
+  <link href='style.css' rel='stylesheet' />
+  <script type='text/javascript' src='stores.geojson'></script>
+  <script src='map.js'></script>
+</head>
+
+<body>
+  <!-- This container will hold the sidebar and the map -->
+  <div class='container'>
+    <div class='sidebar'>
+      <div class='sidebar-content'>
+        <h1 id='title'>Select a location!</h1>
+        <img id='image' src=''></img>
+        <p id='address'></p>
+        <p id='phone'></p>
+      </div>
+    </div>
+    <!-- Mapbox GL JS will target this div with JavaScript to
+    place an interactive map within it -->
+    <div id='map'></div>
+  </div>
+</body>
+
+</html>

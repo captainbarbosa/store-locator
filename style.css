@@ -1,0 +1,30 @@
+body { 
+  margin: 0;
+  padding: 5%;
+  font-family: -apple-system,
+  BlinkMacSystemFont,avenir,
+  helvetica,helvetica neue,arial,sans-serif;
+  color: #4C4F5E;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  outline: 2px solid #BEBDD3;
+}
+
+.sidebar {
+  text-align: center;
+  padding: 10px;
+  width: 30%;
+  background-color: #BEBDD3;
+  
+}
+
+#map { 
+  flex-grow: 1;
+}
+
+#image {
+  height: 150px;
+}

@@ -1,0 +1,85 @@
+var stores = ﻿{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CityCenter",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/ChinatownWashingtonDC.jpg",
+        "phone": "(202) 733-2879",
+        "address": "904 Palmer Alley NW"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.024064,
+          38.900349
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Factory",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Union_Market_DC_12.jpg",
+        "phone": "(202) 333-4646",
+        "address": "550 Penn St. NE"
+      },
+      "geometry": {
+        "coordinates": [
+          -76.995985,
+          38.909986
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dupont Circle",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Dupont-HDR.jpg",
+        "phone": "(202) 299-9116",
+        "address": "1704 Connecticut Ave NW"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.045635,
+          38.912853
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Logan Circle",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/1433-1439_Q_Street%2C_NW.JPG/1920px-1433-1439_Q_Street%2C_NW.JPG",
+        "phone": "(202) 817-3900",
+        "address": "1418 14th St. NW Washington"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.032212,
+          38.909473
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Georgetown",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Georgetown_canal.jpg/1920px-Georgetown_canal.jpg",
+        "phone": "(202) 333-0933",
+        "address": "1560 Wisconsin Ave NW Washington"
+      },
+      "geometry": {
+        "coordinates": [
+          -77.065014,
+          38.910332
+        ],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+};
